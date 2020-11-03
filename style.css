@@ -1,0 +1,627 @@
+body{
+    margin: 0;
+    max-width: 1366px;
+}  
+
+/*Header*/
+
+header{
+    height: 150px;
+    max-width: 1366px;
+    border-top: 8px solid rgb(214, 192, 176);
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+    width: 200px;
+    height: 132px;
+    margin-left: 196px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.contact{
+    display: flex;
+    flex-direction: column; 
+}
+
+.phone{
+    display: flex;
+}
+
+.phone-icon{
+    background-color: white;
+    border: 3px solid rgb(62, 38, 34);
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+    padding: 6px;
+    margin-top: 25px;  
+    margin-right: 20px;
+   
+ 
+}
+.phone-number{
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.5rem;
+    color: rgb(62, 38, 34);
+    margin-top: 30px;
+    margin-right: 190px;
+}
+
+.wedding-enquiry{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.125rem;
+    border-radius: 5px;
+    background-color: rgb(214, 192, 176);
+    padding: 14px 25px;
+    align-self: flex-end;
+    margin-right: 190px;
+}
+
+.wedding-enquiry:hover{
+    background-color: rgb(62, 38, 34);
+}
+
+/*Navigation*/
+
+nav{
+    min-height: 50px;
+    background-color: rgb(214, 192, 176);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 0.938rem;
+    font-family: 'Raleway', sans-serif;
+    padding: 18px 22px;
+    border-right: 2px solid #c8b5a7;
+}
+
+nav :nth-of-type(6){
+    border: none;
+}
+
+nav a:hover{
+    color: rgb(62, 38, 34);
+}
+
+
+/*HOME PAGE*/
+
+/*Hero Area*/
+
+.hero-area{
+    min-height: 650px;
+    background-image: url(images/Hero\ Area.png);
+    background-size: cover;
+    background-position: top right;
+    color: rgb(62, 38, 34);
+    display: flex;
+    flex-direction: column;
+}
+
+.title{
+    font-size: 5.125rem;
+    font-family:'Great Vibes', cursive;  
+    font-weight: normal;
+    text-shadow: 0rem 1px 1px rgba(62, 38, 34, 0.3);
+    align-self: flex-end;
+    padding-right: 216px;
+    margin-top: 180px;
+    margin-bottom: -35px;
+}
+
+.subtitle{
+    font-size: 3rem;
+    font-family: 'Indie Flower', cursive;
+    letter-spacing: -1px;  
+    text-shadow: 0px 1px 1px rgba(62, 38, 34, 0.3); 
+    align-self: flex-end;
+    padding-right: 206px;
+    margin-bottom: 30px;
+}
+
+.collectionbtn{
+    text-decoration: none;
+    color: rgb(62, 38, 34);
+    font-family:'Raleway', sans-serif;
+    font-weight: bolder;
+    font-size: 1.25rem;
+    border-radius: 10px;
+    border: 2px solid rgb(62, 38, 34);
+    padding: 18px 40px;
+    align-self: flex-end;
+    margin-right: 303px;
+}
+
+.collectionbtn:hover{
+    background-color: rgb(255, 255, 255);
+}
+
+/*How we work*/
+
+.work-title{
+    display: flex;
+}
+
+.work-title h2{
+    font-family:'Great Vibes', cursive;  
+    font-size: 3.375rem;
+    font-weight: normal;
+    color: rgb(62, 38, 34);
+    padding-left: 202px;
+}
+
+.decoration1{
+    width: 60px;
+    border-bottom: 2px solid #3e2622;
+    align-self: flex-start;
+    padding-top: 50px;
+    margin-left: 10px;
+}
+
+.steps{
+    height: 330px;
+    background-image: url(images/Flower\ \ Image\ right.png);
+    background-size: cover;
+    font-family: 'Indie Flower', cursive;
+    font-size: 1.38rem;
+    padding-left: 340px;
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.icon1{
+    display: flex;
+}
+
+.icon1 p{
+    color: #333333;
+    padding-left: 30px;
+    margin-top: 15px;
+}
+
+.icon2{
+    display: flex;
+    padding-top: 30px;
+}
+
+.icon2 p{
+    color: #333333;
+    padding-left: 30px;
+    margin-right: 340px;
+    margin-top: -5px;
+}
+
+.icon3{
+    display: flex;
+    padding-top: 10px;
+}
+
+.icon3 p{
+    color: #333333;
+    padding-left: 30px;
+    margin-top: 5px;
+}
+
+.contactbtn{
+    text-decoration: none;
+    font-family:'Raleway', sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 1.375rem;
+    border-radius: 10px;
+    padding: 10px 20px 10px 20px;
+    background-color: rgb(214, 192, 176);
+    margin-top: 40px;
+    margin-right: 592px;
+    align-self: flex-end;
+}
+
+a.contactbtn:hover{
+    background-color: rgb(62, 38, 34);
+}
+
+/*Recent Designs*/
+
+.designs-title{
+    color: rgb(62, 38, 34);
+    display: flex;
+}
+
+.decoration2{
+    width: 290px;
+    border-bottom: 2px solid #3e2622;
+    margin-left: 570px;
+    margin-right: 10px;
+    margin-bottom: 65px;
+    align-self: flex-end;
+}
+
+.designs-title h2{
+    font-family:'Great Vibes', cursive;  
+    font-size: 3.38rem;
+    font-weight: normal;
+    padding-top: 30px;
+}
+
+
+.cards{
+    display: flex;
+}
+
+.leftarrow{
+    margin-left: 20px;
+    height: 60px;
+    padding-top: 110px;
+}
+
+.rightarrow{
+    margin-right: 20px;
+    height: 60px;
+    padding-top: 110px;
+}
+
+
+.gallery{
+    height:306px;
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.image1{
+    width: 306px;
+    background-image: url(images/Image1.jpg);
+    background-size: cover;
+    background-position: center;
+    box-shadow: 0px 3px 3px rgba(214, 192, 176, 0238);
+}
+
+.image2{
+    width: 306px;
+    background-image: url(images/Image2.jpg);
+    background-size: cover;
+    background-position: center;
+    box-shadow: 0px 3px 3px rgba(214, 192, 176, 0238);
+}
+
+.image3{
+    width: 306px;
+    background-image: url(images/Image3.jpg);
+    background-size: cover;
+    background-position: center;
+    box-shadow: 0px 3px 3px rgba(214, 192, 176, 0238);
+}
+
+/*About Sabrina*/
+
+.about-title{
+    display: flex;
+}
+
+.about-title h2{
+    font-family:'Great Vibes', cursive;  
+    font-size: 3.38rem;
+    font-weight: normal;  
+    color: rgb(62, 38, 34);
+    padding-left: 202px;
+}
+
+.decoration3{
+    width: 100px;
+    border-bottom: 2px solid #3e2622;
+    align-self: flex-start;
+    padding-top: 45px;
+    margin-left: 10px;
+}
+
+.sabrina{
+    display: flex;
+    font-family: 'Indie Flower', cursive;
+    font-size: 0.75rem;
+    line-height: 1.5rem;  
+    color: #333333; 
+}
+
+.text{
+    width: 690px;
+    height: 370px;
+    margin-top: 35px;
+    background-image: url(images/Flower\ Image.png);
+    position: absolute;
+}
+
+.text p{
+    margin: 2.5rem 2.5rem 0rem 15.13rem;
+}
+
+.photo{
+    width: 700px;
+    height: 440px;
+    background-image: url(images/Girl\ photo.png);
+    margin-left: 665px;
+}
+
+/*Footer*/
+
+footer{
+    width: 1366px;
+    height: 152px;
+    background-color: rgb(214, 192, 176);
+    margin-top: 60px;
+}
+
+.contact-details{
+    display: flex;
+}
+
+.location{
+    display: flex;
+    color: rgb(255, 255, 255);
+    margin-left: 202px;
+}
+.location img{
+    width: 15px;
+    height: 21px;
+    border: 3px solid white;
+    border-radius: 50%;
+    padding: 6px 8px;
+    margin-top: 25px;
+}
+
+.address{
+    display: flex;
+    flex-direction: column;
+}
+.address1{
+    font-family:'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    margin-top: 25px;
+    padding-left: 10px;
+}
+
+.address2{
+    font-family:'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    margin-top: -5px;
+    padding-left: 10px;
+}
+
+.email{
+    display: flex;
+    color: rgb(255, 255, 255);
+    margin-left: 82px;
+}
+
+.email img{
+    width: 20.5px;
+    height: 16px;
+    border: 3px solid white;
+    border-radius:50%;
+    padding: 8px 8px;
+    margin-top: 25px;
+}
+
+.email-address{
+    display: flex;
+    flex-direction: column;
+}
+.email1{
+    font-family:'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    margin-top: 25px;
+    padding-left: 10px;
+}
+
+.email2{
+    font-family:'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    margin-top: -5px;
+    padding-left: 10px;
+}
+
+.telephone{
+    display: flex;
+    color: rgb(255, 255, 255);
+    margin-left: 82px;
+}
+
+.telephone img{
+    width: 20.53px;
+    height: 20.53px;
+    color: rgb(255, 255, 255);
+    border: 3px solid white;
+    border-radius: 50%;
+    padding: 6px 8px;
+    margin-top: 25px;
+  
+}
+
+.telephone-number{
+    display: flex;
+    flex-direction: column;
+}
+
+.phone1{
+    font-family:'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    margin-top: 25px;
+    padding-left: 10px;
+}
+
+.phone2{
+    font-family:'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    margin-top: -5px;
+    padding-left: 10px;
+}
+
+hr{
+    width: 960px;
+    height: 4px;
+    margin-left: 202px;
+    border-style: none;
+    border-top: 4px solid #c8b5a7;
+}
+
+.copyright{
+
+    font-family:'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    color: white;
+    margin-left: 202px;
+    margin-top: 18px;
+}
+
+
+/*COLLECTIONS & PACKAGES PAGE*/
+
+.collections h1{
+    font-family:'Great Vibes', cursive;  
+    font-size: 54px;
+    font-weight: normal;
+    color: rgb(62, 38, 34);
+    padding-left: 482px;
+    margin-top: 60px;
+}
+
+.collections p{
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    font-weight: 100;
+    line-height: 26px;
+    color: #333333;
+    margin: -15px 196px 0 196px;
+    text-align: center;
+}
+
+.pastal-collection{
+    display: flex;
+    margin-top: 10px;
+}
+
+
+
+.pastal-collection h2{
+    font-family:'Great Vibes', cursive;  
+    font-size: 36px;
+    font-weight: normal;
+    color: rgb(62, 38, 34);
+    padding-left: 202px;
+}
+
+.pastal-decoration{
+    width: 40px;
+    border-bottom: 2px solid #3e2622;
+    align-self: flex-start;
+    padding-top: 30px;
+    margin-left: 10px;
+}
+
+
+.cards1{
+    width: 225px;
+    height: 325px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.img1{
+    background-image: url(images/Blush\ &\ Cream.png);
+    width: 225px;
+    background-size: cover;
+    background-position: center;
+    box-shadow: 0px 3px 3px rgba(214, 192, 176, 0238);
+}
+
+.img2{
+    background-image: url(images/Peaches\ &\ Cream.png);
+    width: 225px;
+    background-size: cover;
+    background-position: center;
+    box-shadow: 0px 3px 3px rgba(214, 192, 176, 0238);
+}
+
+.img3{
+    background-image: url(images/Peaches\ &\ Cream.png);
+    width: 225px;
+    background-size: cover;
+    background-position: center;
+    box-shadow: 0px 3px 3px rgba(214, 192, 176, 0238);
+}
+
+.img4{
+    background-image: url(images/Peaches\ &\ Cream.png);
+    width: 225px;
+    background-size: cover;
+    background-position: center;
+    box-shadow: 0px 3px 3px rgba(214, 192, 176, 0238);
+}
+
+/* Tablet size*/
+
+@media (max-width: 768px){
+
+    .logo{
+        width: 160px;
+        height: 100px;
+        margin-left: 70px;
+        padding-top: 20px;
+    }
+
+    .phone-icon{
+        height: 20px;
+        width: 20px;
+    }
+
+    .phone-number{
+        font-size: 1.2rem;
+        margin-right: 60px;
+   
+    }
+
+    .wedding-enquiry{
+        font-size: 0.9rem;
+        margin-right: 60px;
+   
+    }
+
+    nav a{
+        font-size: 0.7rem;
+    }
+
+    .hide-tablet{
+        display: none;
+    }
+
+    .title, .subtitle{
+       padding-right: 100px;
+    }
+
+    .collectionbtn{
+        margin-right: 160px;
+    }
+}
+
+
